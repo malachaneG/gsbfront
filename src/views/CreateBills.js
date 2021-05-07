@@ -2,10 +2,10 @@ import React from 'react'
 import '../App.css';
 import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
-import BillsList from '../components/billsList/BillsList'
+import CreateBill from '../components/createBill/CreateBill'
 
 
-class Bills extends React.Component {
+class CreateBills extends React.Component {
 
   constructor(props){
     super(props)
@@ -15,7 +15,7 @@ class Bills extends React.Component {
     return (
       <body class="d-flex flex-column h-100">
           <Header />
-          <BillsList/>
+          <CreateBill/>
           <Footer />
            
 
@@ -27,4 +27,4 @@ class Bills extends React.Component {
 
 }
 
-export default Bills;
+export default CreateBills;

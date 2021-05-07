@@ -1,6 +1,6 @@
 import {Route, Redirect} from 'react-router-dom'
 
-const getAuth = () => (localStorage.getItem('token'))
+const getAuth = () =>(localStorage.getItem('token'))
 
 const ProtectedRoute = ({ component: Component, ...rest }) => (
     <Route {...rest} render={(props) => (
