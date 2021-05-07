@@ -133,7 +133,7 @@ class BillsList extends React.Component {
                                 <th scope="col">Montant</th>
                                 <th scope="col">Date de modification</th>
                                 <th scope="col">Etat</th>
-                                <th scope="col">Action</th>
+                                <th scope="col">Modifier</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -219,7 +219,7 @@ class BillsList extends React.Component {
                                                 <th scope="col">Libellé</th>
                                                 <th scope="col">Montant</th>
                                                 <th scope="col"> Justificatifs</th>
-                                                <th scope="col"> Actions</th>
+                                                <th scope="col">Supprimer</th>
                                             </tr>
                                         </thead>
                                         

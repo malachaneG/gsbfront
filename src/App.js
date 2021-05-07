@@ -54,7 +54,7 @@ class App extends React.Component {
       <th scope="col">Montant</th>
       <th scope="col">Date de modification</th>
       <th scope="col">Etat</th>
-      <th scope="col">Action</th>
+      <th scope="col">Modifier</th>
     </tr>
   </thead>
   <tbody>
